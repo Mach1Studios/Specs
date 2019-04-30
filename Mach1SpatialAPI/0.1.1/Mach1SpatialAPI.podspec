@@ -16,8 +16,8 @@ Mach1 Spatial APIs are all contained in this pod which includes:
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.author           = { 'Mach1' => 'http://www.mach1studios.com' }
   s.documentation_url = 'http://dev.mach1.xyz'
-  s.source           = { :git => 'https://github.com/Mach1Studios/Pod-Mach1SpatialAPI.git', :tag => s.version.to_s }
-  s.ios.deployment_target  = '9.3'
+  s.source           = { :git => 'git@github.com:Mach1Studios/Pod-Mach1SpatialAPI.git', :tag => s.version.to_s }
+  s.platform      = :ios, "12.0"
   s.swift_version = "4.2"
 
   s.source_files = 'Mach1SpatialAPI/Classes/*.{h,swift}'
